@@ -1,0 +1,141 @@
+
+::selection {
+  background-color: #c0e5f4;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #edece9;
+}
+::-webkit-scrollbar-thumb {
+  background: #d3d1cb;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #aeaca6;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+
+* {
+  color: #37352f;
+  fill: #37352f;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lyon Text', serif;
+  line-height: 1.1em;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Lyon Text', sans-serif;
+  line-height: 1.5em;
+}
+
+code {
+  display: inline-block;
+  font-family: 'Fira Mono', monospace;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0em 0.3em 0em 0.3em;
+  background-color: #ededeb;
+  border-radius: 5px;
+  color: #eb5757;
+}
+
+pre {
+  display: block;
+  margin: 0 10px;
+  font-family: 'Fira Mono', monospace;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0.5em 10px;
+  background-color: #f6f6f6;
+  border-radius: 5px;
+  color: #eb5757;
+  min-width: 150px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #d3d1cb;
+  margin: 1em 10px;
+  padding: 0.5em 10px;
+  overflow-x: auto;
+  min-width: 150px;
+}
+
+hr {
+  margin: 2em 0em 2em 0em;
+  border-style: solid;
+  color: #eeeeee;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bolder;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+
+header {
+  width: min(100%, 1300px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#name {
+  font-family: 'Noto Sans', serif;
+  font-size: 28px;
+  margin: 20px 20px 20px 30px;
+  justify-content: left;
+}
+#name a {
+  text-decoration: none;
+}
+
+#github-link {
+  margin: 25px 30px 20px 20px;
+  line-height: 0;
+}
+#github-link:hover {
+  filter: brightness(250%);
+}
+#github-link svg {
+  width: 2em;
+  height: 2em;
+}
+
+main {
+  margin: 5% 20% 10% 20%;
+  width: min(60%, 900px);
+}
+
+main > :first-child {
+  margin-bottom: 65px;
+}
+
+section {
+  margin-bottom: 25px;
+}

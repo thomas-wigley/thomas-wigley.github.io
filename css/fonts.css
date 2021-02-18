@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&display=swap');
+
+
+@font-face {
+	font-family: 'Lyon Text';
+	src: url('./../fonts/lyon-text-regular.woff') format('woff');
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Lyon Text';
+	src: url('./../fonts/lyon-text-regular-italic.woff') format('woff');
+	font-style: italic;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'Lyon Text';
+	src: url('./../fonts/lyon-text-semibold.woff') format('woff');
+	font-style: normal;
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Lyon Text';
+	src: url('./../fonts/lyon-text-semibold-italic.woff') format('woff');
+	font-style: italic;
+	font-weight: 600;
+}
